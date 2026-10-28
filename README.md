@@ -38,22 +38,47 @@ This repository teaches Git and GitHub from the ground up. Read the lessons in o
 - [🎥 Learning Resources](./12-RESOURCES/)
 - [🌐 GitHub Pages](./13-GITHUB-PAGES/)
 
-## 🧭 Recommended learning path
+
+# 🐍 Git Learning Roadmap
 
 ```mermaid
 flowchart TD
- A["00 Start Here"] --> B["01 Foundations"]
- B --> C["02 Setup"]
- C --> D["03 Core Commands"]
- D --> E["04 Tracking & Undo"]
- E --> F["05 Branching & Merging"]
- F --> G["06 GitHub Remote"]
- G --> H["07 Collaboration"]
- H --> I["08 Advanced Git"]
- I --> J["09 Security & Best Practices"]
- J --> K["10 Projects & Capstone"]
- K --> L["11 Revision"]
- L --> M["Optional: GitHub Pages"]
+    A(["🚀 START<br/>00 · Start Here"])
+    B["01 · Foundations"]
+    C["02 · Setup"]
+    D["03 · Core Commands"]
+    E["04 · Tracking & Undo"]
+    F["05 · Branching & Merging"]
+    G["06 · GitHub Remote"]
+    H["07 · Collaboration"]
+    I["08 · Advanced Git"]
+    J["09 · Security & Best Practices"]
+    K["10 · Projects & Capstone"]
+    L["11 · Revision"]
+    M(["🏁 FINISH · GitHub Pages (Optional)"])
+
+    A --> B --> C
+    C --> D
+    D --> E
+    E --> F --> G
+    G --> H
+    H --> I
+    I --> J --> K
+    K --> L --> M
+
+    style A fill:#16a34a,color:#fff,stroke:#166534
+    style B fill:#dbeafe,color:#1e3a8a,stroke:#2563eb
+    style C fill:#fef3c7,color:#78350f,stroke:#d97706
+    style D fill:#fce7f3,color:#831843,stroke:#db2777
+    style E fill:#ede9fe,color:#4c1d95,stroke:#7c3aed
+    style F fill:#cffafe,color:#164e63,stroke:#0891b2
+    style G fill:#fee2e2,color:#7f1d1d,stroke:#dc2626
+    style H fill:#d1fae5,color:#064e3b,stroke:#059669
+    style I fill:#dbeafe,color:#1e40af,stroke:#1d4ed8
+    style J fill:#fef3c7,color:#92400e,stroke:#b45309
+    style K fill:#fce7f3,color:#9d174d,stroke:#be185d
+    style L fill:#ede9fe,color:#5b21b6,stroke:#6d28d9
+    style M fill:#16a34a,color:#fff,stroke:#166534
 ```
 
 ## 🎬 Start with these free videos and courses
