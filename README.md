@@ -21,24 +21,22 @@ This repository teaches Git and GitHub from the ground up. Read the lessons in o
 
 > 🎯 **End goal:** Confidently track changes, manage branches, recover from common mistakes, publish repositories, collaborate through pull requests, and understand a professional Git workflow.
 
-## 🗂️ Course contents
+## 📚 Course Contents
 
-| Folder | What's inside |
-|---|---|
-| `00-START-HERE/` | Setup checklist, course roadmap, learning plan |
-| `01-FOUNDATIONS/` | Version control, Git vs GitHub, Git internals |
-| `02-SETUP/` | Install Git, configure identity, terminal basics |
-| `03-CORE-COMMANDS/` | Init, status, add, commit, diff, log |
-| `04-TRACKING-AND-UNDO/` | `.gitignore`, restore, revert, amend, recovery |
-| `05-BRANCHING-AND-MERGING/` | Branches, merge, conflict resolution |
-| `06-GITHUB-REMOTE/` | Repositories, clone, remote, fetch, pull, push |
-| `07-COLLABORATION/` | Issues, pull requests, reviews, GitHub Flow |
-| `08-ADVANCED-GIT/` | Rebase, stash, tags, cherry-pick, reflog |
-| `09-SECURITY-AND-BEST-PRACTICES/` | Secret prevention, safe workflows, repository hygiene |
-| `10-PROJECTS/` | Guided labs and final capstone |
-| `11-REVISION/` | Cheat sheet, glossary, quiz and answer key |
-| `12-RESOURCES/` | Official docs, free courses and video links |
-| `13-GITHUB-PAGES/` | Optional guide to publish these notes as a website |
+- [🚀 Start Here](./00-START-HERE/)
+- [📘 Foundations](./01-FOUNDATIONS/)
+- [⚙️ Setup](./02-SETUP/)
+- [💻 Core Commands](./03-CORE-COMMANDS/)
+- [↩️ Tracking and Undo](./04-TRACKING-AND-UNDO/)
+- [🌿 Branching and Merging](./05-BRANCHING-AND-MERGING/)
+- [☁️ GitHub Remote](./06-GITHUB-REMOTE/)
+- [🤝 Collaboration](./07-COLLABORATION/)
+- [🧠 Advanced Git](./08-ADVANCED-GIT/)
+- [🔐 Security and Best Practices](./09-SECURITY-AND-BEST-PRACTICES/)
+- [🧪 Practice Projects](./10-PROJECTS/)
+- [📝 Revision and Quiz](./11-REVISION/)
+- [🎥 Learning Resources](./12-RESOURCES/)
+- [🌐 GitHub Pages](./13-GITHUB-PAGES/)
 
 ## 🧭 Recommended learning path
 
