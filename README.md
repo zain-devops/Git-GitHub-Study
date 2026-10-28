@@ -38,10 +38,11 @@ This repository teaches Git and GitHub from the ground up. Read the lessons in o
 - [🎥 Learning Resources](./12-RESOURCES/)
 - [🌐 GitHub Pages](./13-GITHUB-PAGES/)
 
-🚀 Git Learning Roadmap
+## 🚀 Git Learning Roadmap
 
 Click any topic to jump to its learning section.
 
+```mermaid
 flowchart TD
     A(["🚀 Start Here"]) --> B["01 · Foundations"]
     B --> C["02 · Setup"]
@@ -83,7 +84,96 @@ flowchart TD
     style K fill:#fce7f3,color:#9d174d,stroke:#be185d
     style L fill:#ede9fe,color:#5b21b6,stroke:#6d28d9
     style M fill:#16a34a,color:#fff,stroke:#166534
+```
 
+---
+
+## 📚 Learning Modules
+
+### Start Here
+<a id="start-here"></a>
+Understand Git, version control, and why developers use it.
+
+### 01 Foundations
+<a id="01-foundations"></a>
+- Git vs. GitHub
+- Version control concepts
+- Repository basics
+
+### 02 Setup
+<a id="02-setup"></a>
+- Install Git
+- Configure username and email
+- Set up SSH authentication
+
+### 03 Core Commands
+<a id="03-core-commands"></a>
+- `git init`
+- `git clone`
+- `git status`
+- `git add`
+- `git commit`
+- `git log`
+
+### 04 Tracking & Undo
+<a id="04-tracking-and-undo"></a>
+- `git diff`
+- `git restore`
+- `git reset`
+- `git revert`
+- `git stash`
+
+### 05 Branching & Merging
+<a id="05-branching-and-merging"></a>
+- `git branch`
+- `git switch`
+- `git merge`
+- Resolve merge conflicts
+
+### 06 GitHub Remote
+<a id="06-github-remote"></a>
+- `git remote`
+- `git push`
+- `git pull`
+- `git fetch`
+
+### 07 Collaboration
+<a id="07-collaboration"></a>
+- Fork and clone
+- Pull requests
+- Code reviews
+- Team workflows
+
+### 08 Advanced Git
+<a id="08-advanced-git"></a>
+- `git rebase`
+- `git cherry-pick`
+- `git tag`
+- `git reflog`
+
+### 09 Security & Best Practices
+<a id="09-security-and-best-practices"></a>
+- `.gitignore`
+- SSH keys and access tokens
+- Never commit passwords or secrets
+- Commit message conventions
+
+### 10 Projects & Capstone
+<a id="10-projects-and-capstone"></a>
+- Build a sample project repository
+- Practice feature branches
+- Simulate a pull request workflow
+- Resolve merge conflicts
+
+### 11 Revision
+<a id="11-revision"></a>
+- Revise essential Git commands
+- Complete practical exercises
+- Test your knowledge
+
+### 🏁 GitHub Pages (Optional)
+<a id="github-pages-optional"></a>
+Publish your project or learning notes online.
 ## 🎬 Start with these free videos and courses
 
 **Official GitHub video**
