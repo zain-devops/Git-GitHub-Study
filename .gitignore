@@ -1,17 +1,22 @@
-# Local secrets and environment settings
+# Environment files and secrets
 .env
 .env.*
 !.env.example
 *.pem
 *.key
 
-# Operating system
-.DS_Store
-Thumbs.db
+# Dependencies and build output
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
 
-# Editor settings
+# Editor and operating system files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 
 # Temporary files
 *.tmp

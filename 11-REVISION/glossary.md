@@ -1,0 +1,23 @@
+# 📚 Glossary
+
+- **Branch:** a named line of development.
+- **Clone:** create a local copy of a remote repository.
+- **Commit:** a recorded snapshot with metadata and a message.
+- **Conflict:** a change Git cannot automatically combine.
+- **Fetch:** download remote updates without integrating them into the current branch.
+- **Git:** distributed version control software.
+- **GitHub:** hosting and collaboration platform for Git repositories.
+- **HEAD:** reference to the current checkout, normally the current branch.
+- **Index/staging area:** selected changes for the next commit.
+- **Issue:** tracker for a task, bug or discussion.
+- **Merge:** combine branch histories.
+- **Pull:** fetch and integrate remote changes.
+- **Pull request:** proposal to review and merge changes on GitHub.
+- **Push:** send local commits to a remote.
+- **Remote:** named connection to another repository.
+- **Repository:** project content and version history.
+- **Rebase:** replay commits onto a new base, rewriting commit identities.
+- **Reflog:** record of recent local reference movements.
+- **Stash:** temporary local storage for uncommitted work.
+- **Tag:** named reference commonly used for releases.
+- **Working tree:** current files on disk.

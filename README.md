@@ -1,96 +1,162 @@
-# Git & GitHub Study Material
+<div align="center">
 
-A beginner-friendly, hands-on guide to learning Git and GitHub. Follow the lessons in order, run the commands in your own practice folder, and complete the exercises at the end.
+# 🚀 Git & GitHub — Complete Learning Course
 
-## Learning outcomes
+### Beginner → Confident User → Team Collaboration
 
-By the end, you should be able to:
-- Explain the difference between Git and GitHub.
-- Configure Git and create a local repository.
-- Track, commit, inspect, and undo changes safely.
-- Work with branches and merge changes.
-- Connect a local project to GitHub and push/pull changes.
-- Collaborate using issues and pull requests.
-- Resolve a basic merge conflict and follow good repository practices.
+**A free, folder-wise, hands-on course with lessons, practical labs, projects, revision notes, and official learning resources.**
 
-## Suggested study plan
+![Git](https://img.shields.io/badge/Git-Version%20Control-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Collaboration-181717?logo=github&logoColor=white)
+![Cost](https://img.shields.io/badge/Cost-Free-2ea44f)
+![Format](https://img.shields.io/badge/Format-Markdown-blue)
 
-| Session | Topic | Practice |
+</div>
+
+---
+
+## 👋 Welcome!
+
+This repository teaches Git and GitHub from the ground up. Read the lessons in order, type the commands yourself, complete the labs, and finish the capstone project. No prior Git experience is required.
+
+> 🎯 **End goal:** Confidently track changes, manage branches, recover from common mistakes, publish repositories, collaborate through pull requests, and understand a professional Git workflow.
+
+## 🗂️ Course contents
+
+| Folder | What's inside |
+|---|---|
+| `00-START-HERE/` | Setup checklist, course roadmap, learning plan |
+| `01-FOUNDATIONS/` | Version control, Git vs GitHub, Git internals |
+| `02-SETUP/` | Install Git, configure identity, terminal basics |
+| `03-CORE-COMMANDS/` | Init, status, add, commit, diff, log |
+| `04-TRACKING-AND-UNDO/` | `.gitignore`, restore, revert, amend, recovery |
+| `05-BRANCHING-AND-MERGING/` | Branches, merge, conflict resolution |
+| `06-GITHUB-REMOTE/` | Repositories, clone, remote, fetch, pull, push |
+| `07-COLLABORATION/` | Issues, pull requests, reviews, GitHub Flow |
+| `08-ADVANCED-GIT/` | Rebase, stash, tags, cherry-pick, reflog |
+| `09-SECURITY-AND-BEST-PRACTICES/` | Secret prevention, safe workflows, repository hygiene |
+| `10-PROJECTS/` | Guided labs and final capstone |
+| `11-REVISION/` | Cheat sheet, glossary, quiz and answer key |
+| `12-RESOURCES/` | Official docs, free courses and video links |
+| `13-GITHUB-PAGES/` | Optional guide to publish these notes as a website |
+
+## 🧭 Recommended learning path
+
+```mermaid
+flowchart TD
+ A["00 Start Here"] --> B["01 Foundations"]
+ B --> C["02 Setup"]
+ C --> D["03 Core Commands"]
+ D --> E["04 Tracking & Undo"]
+ E --> F["05 Branching & Merging"]
+ F --> G["06 GitHub Remote"]
+ G --> H["07 Collaboration"]
+ H --> I["08 Advanced Git"]
+ I --> J["09 Security & Best Practices"]
+ J --> K["10 Projects & Capstone"]
+ K --> L["11 Revision"]
+ L --> M["Optional: GitHub Pages"]
+```
+
+## 🎬 Start with these free videos and courses
+
+**Official GitHub video**
+- [A brief introduction to Git for beginners — GitHub](https://www.youtube.com/watch?v=r8jQ9hVA2qs)
+- [GitHub for Beginners video series — official learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources)
+
+**Official Git video library**
+- [Git project video library](https://git-scm.com/videos)
+- [Pro Git book — free online](https://git-scm.com/book/en/v2)
+
+**Official hands-on training**
+- [GitHub Skills — free interactive courses](https://skills.github.com/)
+- [GitHub learning resources](https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources)
+- [GitHub Docs](https://docs.github.com/)
+
+**Optional long-form third-party video**
+- [Git and GitHub Tutorial for Beginners — Kevin Stratvert](https://www.youtube.com/watch?v=tRZGeaHPoaw)  
+  This is a community tutorial, not an official GitHub video.
+
+## 📅 Suggested 30-day plan
+
+| Days | Focus | Outcome |
 |---|---|---|
-| 1 | Git concepts and setup | Install Git; set your name and email |
-| 2 | Repository, staging, commits | Create a repository and make 3 commits |
-| 3 | History and undo | Inspect logs; unstage and restore a practice file |
-| 4 | Branching and merging | Create a feature branch and merge it |
-| 5 | GitHub and remotes | Create a GitHub repository and push your project |
-| 6 | Collaboration | Open an issue and pull request; review changes |
-| 7 | Conflicts and best practices | Resolve a practice merge conflict |
-| 8 | Revision | Complete `docs/exercises.md` |
+| 1–2 | Foundations | Explain Git, GitHub and repositories |
+| 3–4 | Setup | Install and configure Git |
+| 5–8 | Core commands | Create commits and inspect history |
+| 9–11 | Tracking and undo | Ignore files and safely reverse changes |
+| 12–15 | Branching | Branch, merge and resolve conflicts |
+| 16–19 | GitHub remote | Clone, push, fetch and pull |
+| 20–23 | Collaboration | Issues, pull requests and reviews |
+| 24–26 | Advanced Git | Stash, rebase, tags and reflog |
+| 27–29 | Projects | Finish labs and capstone |
+| 30 | Revision | Quiz yourself and explain the workflow |
 
-## Lessons
+## ⚡ First practice session
 
-1. [Git fundamentals and commands](docs/git-basics.md)
-2. [GitHub workflow](docs/github-guide.md)
-3. [Exercises and revision questions](docs/exercises.md)
-
-## Quick start
-
-Check that Git is installed:
+After installing Git, open a terminal and run:
 
 ```bash
 git --version
-```
-
-Set the author identity used in your commits (use your own details):
-
-```bash
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 git config --global init.defaultBranch main
-```
 
-Create a practice repository:
-
-```bash
 mkdir git-practice
 cd git-practice
 git init
 echo "# My Git Practice" > README.md
 git status
 git add README.md
-git commit -m "Add initial README"
+git commit -m "Add first README"
 git log --oneline
 ```
 
-## Important safety habits
+Use your own name and email. These commands create a practice repository on your computer; they do not publish anything online.
 
-- Never commit passwords, API keys, private keys, tokens, or production secrets.
-- Check `git status` and review `git diff` before committing.
-- Prefer small commits with clear messages.
-- Do not use destructive commands on work you need. Learn what a command changes before running it.
-- A Git commit is local until you push it to a remote such as GitHub.
+## 🛡️ Course rules for safe practice
 
-## Recommended official resources
+- Never commit passwords, access tokens, private keys, or production secrets.
+- Review `git status` and `git diff` before committing.
+- Practise destructive commands only in a disposable repository.
+- Use meaningful commit messages.
+- Keep work in feature branches when appropriate.
+- A commit is local until pushed to a remote repository.
+- If a secret is accidentally committed, revoke or rotate it immediately; deleting it in a later commit is not enough.
 
-- Git documentation: https://git-scm.com/doc
-- Pro Git book (free online): https://git-scm.com/book/en/v2
-- GitHub Docs: https://docs.github.com/
-- GitHub Skills: https://skills.github.com/
+## 🚀 Upload this course to your GitHub
 
-## Publishing this study material on GitHub
-
-1. On GitHub, create a **new empty repository** named `git-github-study-material`. Do not initialize it with a README if you plan to push this folder as-is.
-2. Extract this project ZIP and open a terminal in the extracted `git-github-study-material` folder.
-3. Run the following commands, replacing `YOUR-USERNAME` with your GitHub username:
+1. Create an **empty** repository named `git-github-complete-course` at [github.com/new](https://github.com/new).
+2. Extract this ZIP archive.
+3. Open a terminal in the extracted `git-github-complete-course` folder.
+4. Run the commands below, replacing `YOUR-USERNAME` with your GitHub username.
 
 ```bash
 git init
 git add .
-git commit -m "Add Git and GitHub study material"
+git commit -m "Add complete Git and GitHub learning course"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/git-github-study-material.git
+git remote add origin https://github.com/YOUR-USERNAME/git-github-complete-course.git
 git push -u origin main
 ```
 
-GitHub may ask you to authenticate using a browser or credential manager. Do not put your password or token directly into the repository or command history.
+If you already configured `origin`, inspect it with `git remote -v` rather than adding it again. Authenticate using GitHub's supported browser, credential manager, or SSH flow. Do not paste passwords or tokens into these study files.
 
-If you already have a repository with files in it, review GitHub's instructions before pushing so you do not overwrite or conflict with existing work.
+## 🏁 Completion checklist
+
+- [ ] I can explain Git vs GitHub.
+- [ ] I can create a repo and make commits.
+- [ ] I can read diffs and commit history.
+- [ ] I can use `.gitignore` safely.
+- [ ] I can branch, merge and resolve a conflict.
+- [ ] I can clone, push, fetch and pull.
+- [ ] I can open and review a pull request.
+- [ ] I understand how to prevent and respond to secret leaks.
+- [ ] I completed at least two practice projects.
+- [ ] I can explain the workflow without copying commands blindly.
+
+<div align="center">
+
+**Learn → Practise → Commit → Collaborate → Repeat** 💻
+
+</div>
