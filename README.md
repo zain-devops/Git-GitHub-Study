@@ -38,33 +38,37 @@ This repository teaches Git and GitHub from the ground up. Read the lessons in o
 - [🎥 Learning Resources](./12-RESOURCES/)
 - [🌐 GitHub Pages](./13-GITHUB-PAGES/)
 
+🚀 Git Learning Roadmap
 
-# 🐍 Git Learning Roadmap
+Click any topic to jump to its learning section.
 
-```mermaid
 flowchart TD
-    A(["🚀 START<br/>00 · Start Here"])
-    B["01 · Foundations"]
-    C["02 · Setup"]
-    D["03 · Core Commands"]
-    E["04 · Tracking & Undo"]
-    F["05 · Branching & Merging"]
-    G["06 · GitHub Remote"]
-    H["07 · Collaboration"]
-    I["08 · Advanced Git"]
-    J["09 · Security & Best Practices"]
-    K["10 · Projects & Capstone"]
-    L["11 · Revision"]
-    M(["🏁 FINISH · GitHub Pages (Optional)"])
+    A(["🚀 Start Here"]) --> B["01 · Foundations"]
+    B --> C["02 · Setup"]
+    C --> D["03 · Core Commands"]
+    D --> E["04 · Tracking & Undo"]
+    E --> F["05 · Branching & Merging"]
+    F --> G["06 · GitHub Remote"]
+    G --> H["07 · Collaboration"]
+    H --> I["08 · Advanced Git"]
+    I --> J["09 · Security & Best Practices"]
+    J --> K["10 · Projects & Capstone"]
+    K --> L["11 · Revision"]
+    L --> M(["🏁 Finish · GitHub Pages"])
 
-    A --> B --> C
-    C --> D
-    D --> E
-    E --> F --> G
-    G --> H
-    H --> I
-    I --> J --> K
-    K --> L --> M
+    click A "#start-here" "Start learning"
+    click B "#01-foundations" "Learn foundations"
+    click C "#02-setup" "Set up Git"
+    click D "#03-core-commands" "Learn core commands"
+    click E "#04-tracking-and-undo" "Track changes and undo"
+    click F "#05-branching-and-merging" "Learn branches"
+    click G "#06-github-remote" "Connect to GitHub"
+    click H "#07-collaboration" "Collaborate"
+    click I "#08-advanced-git" "Advanced Git"
+    click J "#09-security-and-best-practices" "Git security"
+    click K "#10-projects-and-capstone" "Build projects"
+    click L "#11-revision" "Revise Git"
+    click M "#github-pages-optional" "Publish your project"
 
     style A fill:#16a34a,color:#fff,stroke:#166534
     style B fill:#dbeafe,color:#1e3a8a,stroke:#2563eb
@@ -79,7 +83,6 @@ flowchart TD
     style K fill:#fce7f3,color:#9d174d,stroke:#be185d
     style L fill:#ede9fe,color:#5b21b6,stroke:#6d28d9
     style M fill:#16a34a,color:#fff,stroke:#166534
-```
 
 ## 🎬 Start with these free videos and courses
 
