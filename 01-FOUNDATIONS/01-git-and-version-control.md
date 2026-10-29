@@ -30,12 +30,11 @@ GitHub is an online platform for hosting Git repositories and collaborating thro
 - **Pull request:** a platform feature to discuss, review and merge proposed changes.
 
 ## The three local areas
-
-```text
-Working tree  --git add-->  Staging area  --git commit-->  Local history
-      ^                          |                              |
-      |---------------- edit files -----------------------------|
-```
+flowchart LR
+    A["Working directory"] -->|git add| B["Staging area"]
+    B -->|git commit| C["Local repository"]
+    C -->|git push| D["Remote repository"]
+    D -->|git fetch / pull| C
 
 A commit is not automatically uploaded to GitHub. `git push` sends local commits to a remote.
 
